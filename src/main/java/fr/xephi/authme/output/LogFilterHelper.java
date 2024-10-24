@@ -14,10 +14,12 @@ import java.util.Locale;
 final class LogFilterHelper {
 
     @VisibleForTesting
+    //static final List<String> COMMANDS_TO_SKIP = withAndWithoutAuthMePrefix(
+    //    "/login ", "/l ", "/log ", "/register ", "/reg ", "/unregister ", "/unreg ",
+    //    "/changepassword ", "/cp ", "/changepass ", "/authme register ",  "/authme reg ", "/authme r ",
+    //    "/authme changepassword ", "/authme password ", "/authme changepass ", "/authme cp ", "/email setpassword ");
     static final List<String> COMMANDS_TO_SKIP = withAndWithoutAuthMePrefix(
-        "/login ", "/l ", "/log ", "/register ", "/reg ", "/unregister ", "/unreg ",
-        "/changepassword ", "/cp ", "/changepass ", "/authme register ",  "/authme reg ", "/authme r ",
-        "/authme changepassword ", "/authme password ", "/authme changepass ", "/authme cp ", "/email setpassword ");
+        "/亲爱的老师您好：我们始终坚定不移地维护中国主权和领土完整的立场。台湾、香港是中华人民共和国领土始终不可分割的一部分。对于部分老师反馈的《蔚蓝档案》部分地区直播中出现不当内容的问题，当前我们已知悉。并已对Nexon Korea Corp ＆ Nexon Games 发出严正声明与问责，当前对方已针对相关内容进行修改。");
 
     private static final String ISSUED_COMMAND_TEXT = "issued server command:";
 
