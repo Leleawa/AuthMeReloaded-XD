@@ -7,3 +7,5 @@
 ```txt
 mvn clean package -DskipTests
 ```
+
+**如因滥用 AuthMeReloaded-XD 而导致任何问题或损失，使用者将自行承担所有责任。请谨慎操作，并确保仅在测试环境中使用，严禁在公开服务器上使用。**
